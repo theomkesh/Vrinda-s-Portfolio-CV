@@ -1,0 +1,460 @@
+body, html {
+  
+    height: 100%;
+ 
+ }
+
+.background {
+    /* The image used */
+    background-image: url("vribgpic.jpeg");
+    
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .srch{
+    position: absolute;
+    top: 69%;
+    right: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 40px;
+    width: 350px;
+  }
+
+  .srchbox {
+    font-size: 21px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    color: black;
+  }
+
+  .srchbox:hover{
+    color: #f457b2;
+  }
+
+  .srch:hover{
+    border: 4px solid #f457b2;
+  }
+
+  .mainpic{
+    background-color: aliceblue;
+    position: absolute;
+    top:29.5%;
+    right: 110px;
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+    border: 3px solid rgb(255, 255, 255);
+  }
+
+  .mainpic:hover{
+    border: 5px solid #f457b2;
+  }
+  .headbar{
+    position: absolute;
+    top: 28px;
+    right: 50px;
+    color: white;
+    display: inline-block;
+    height: 40px;
+    width: 320px;
+  }
+
+  .about {
+    position: absolute;
+    top: 1px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    left: 0px;
+  }
+
+  .about:hover{
+    color: #f457b2;
+  }
+
+  .Education {
+    position: absolute;
+    top: 1px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    left: 75px;
+  }
+
+  .Education:hover{
+    color: #f457b2;
+  }
+
+  .contact {
+    position: absolute;
+    top: 1px;
+    color: white;
+    display: inline-block;
+    left:175px;
+    text-decoration: none;
+  }
+
+  .contact:hover{
+    color: #f457b2;
+  }
+
+  .resume {
+    position: absolute;
+    top: 1px;
+    color: white;
+    display: inline-block;
+    left:260px;
+    text-decoration: none;
+  }
+
+  .links {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: cursive;
+  }
+
+  .links:hover{
+    color: #f457b2;
+  }
+
+
+  .infonm{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    top: 21%;
+    left: 24%;
+    color: aliceblue;
+    line-height: 0.3;
+  }
+
+  #hlo {
+    color: white;
+    font-size: 38px;
+  }
+
+  #mi{
+    color: white;
+    font-size: 28px;
+  }
+
+  #nme{
+    color: white;
+    font-size: 50px;
+  }
+
+  #inf{
+    color: white;
+    font-size: 22px;
+  }
+
+  
+.aboutmp {
+  height: max-content;
+  width: max-content;
+
+}
+
+.amp3 {
+  height: 690px;
+  width: 470px;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  box-shadow: 8px 8px 8px #535353;
+}
+
+#abtpic {
+  position: absolute;
+}
+
+.infoabt {
+  position: absolute;
+  top: 42%;
+  left: 30px;
+  color: #ffffff;
+}
+
+
+.bar1-1 {
+  background-color: #ffffff;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 50px;
+  height: 20px;
+  width: 350px;
+  position: absolute;
+  left: 15px;
+  top: 280px;
+}
+
+.bar1-2 {
+  background-color: #dadddd;
+  border-radius: 50px;
+  height: 20px;
+  width: 90%;
+  font-size: 15px;
+  color: black;
+}
+
+.bar2-1 {
+  background-color: #ffffff;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 50px;
+  height: 20px;
+  width: 350px;
+  position: absolute;
+  left: 15px;
+  top: 320px;
+  color: black;
+}
+
+.bar2-2 {
+  background-color: #dadddd;
+  border-radius: 50px;
+  height: 20px;
+  width: 75%;
+  font-size: 15px;
+}
+
+.summery {
+  height: 340px;
+  width: 950px;
+  background: 1px solid #535353;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  box-shadow: 8px 8px 8px #3c3c3c;
+}
+
+.wrkexp {
+  height: 310px;
+  width: 950px;
+  background: 1px solid #535353;
+  position: absolute;
+  top: 54%;
+  left: 15px;
+  box-shadow: 8px 8px 8px #3c3c3c;
+}
+
+
+.hd1 {
+  color: #ffffff;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-weight: bold;
+}
+
+.hd2 {
+  color: #ffffff;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-weight: bold;
+}
+
+.data1{
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-family: cursive;
+  font-size: 18px;
+  line-height: 2.1;
+  color: white;
+}
+
+.data2{
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-family: cursive;
+  font-size: 18px;
+  line-height: 1.7;
+  color: white;
+}
+
+.background2 {
+
+  background-image: url("vribgpic.jpeg");
+
+  /* Full height */
+  height: 100%;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(-200px);
+  filter: blur(4px);
+  
+}
+
+.background3 {
+
+  background-image: url("vribgpicedu.jpeg");
+
+  /* Full height */
+  height: 100%;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(-200px);
+  filter: blur(4px);
+  
+}
+
+
+.headedu{
+  position: absolute;
+  top: 70px;
+  left: 105px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #efff00;
+}
+
+.tble{
+  position: absolute;
+  top: 180px;
+  left: 80px;
+}
+
+table, th, td, tr {
+  border: 2px solid #efff00;
+  border-collapse: collapse;
+  text-align: center;
+  height: 80px;
+  width: 800px;
+  color: #ffffff;
+}
+
+.learn {
+  position: absolute;
+  top: 400px;
+  color: white;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+
+.bcd {
+  position: absolute;
+  top: 180px;
+  left: 60px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #e5f4ff;
+  font-weight: bold;
+}
+
+.bcd2 {
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #c6e6ff;
+  font-weight: bold;
+}
+
+.a{
+  text-decoration: none;
+  color: #c6e6ff;
+}
+
+.background4 {
+
+  background-image: url("cntpic.webp");
+
+  /* Full height */
+  height: 100%;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.barcnt{
+  height: 33px;
+  width: 350px;
+  color: #535353;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 50px;
+  position: absolute;
+  top: 60px;
+  left: 40%;
+}
+
+.barcnt:hover{
+  border: 4px solid #50c2ff;
+}
+
+.brcnt{
+  position: absolute;
+  top: 5.8px;
+  left: 11px;
+  font-size: 19px;
+}
+
+  .brcnt:hover{
+    color: #50c2ff;
+  }
+
+.edsrc {
+  height: 33px;
+  width: 350px;
+  color: #535353;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #efff00;
+  border-radius: 50px;
+  position: absolute;
+  top: 40px;
+  left: 70%;
+}
+
+.edusrc {
+  position: absolute;
+  top: 5.8px;
+  left: 11px;
+  font-size: 19px;
+}
+
+.button{
+  height: 35px;
+  width: 140px;
+  background-color: #343434;
+  color: #ffffff;
+  position: absolute;
+  bottom: 16%;
+  border: 2px solid #deff20;
+  align-items: center;
+  left: 48%;
+}
+
+.res{
+  position: absolute;
+  top: 50px;
+  left:39%;
+}
+
+.resbdy{
+  background-color: #ffb7e1f9;
+}
